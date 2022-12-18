@@ -29,6 +29,8 @@ html{
     text-align: right;
     border: 1px solid black;
     overflow-x: auto;
+    background-color: aliceblue;
+    font-size: 2rem;
 }
 
 .calculadora-botones{
@@ -48,6 +50,20 @@ html{
     padding: 15px 0;
     text-align: center;
     cursor: pointer;
-    background-color: white;
+    background-color: aliceblue;
     border: 1px solid black;
+}
+.boton:hover{
+    filter: brightness(80%);
+    transition: 10ms;
+}
+
+.boton.amarillo{
+    background-color: yellow;
+}
+.boton.oscuro{
+    background-color: gainsboro;
+}
+.boton.largo{
+    width: 50%;
 }
