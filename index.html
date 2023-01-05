@@ -16,10 +16,12 @@
 
         <section class="container">
             <article class="calculadora">
-                <div class="calculadora-pantalla">0</div>
+                    <div >
+                        <input id="calculadora-pantalla" type="text" disabled>
+                    </div>
                 <div class="calculadora-botones">
                     <div class="botones-numeros">
-                        <button class="boton largo" value="C" onclick="">C</button>
+                        <button class="boton largo" value="C" onclick="borrar()">C</button>
                         <button class="boton oscuro" value="%" onclick="insertar('%')">%</button>
                         <button class="boton amarillo" value="/" onclick="insertar('/')">/</button>
                         <button class="boton" value="7" onclick="insertar('7')">7</button>
@@ -36,7 +38,7 @@
                         <button class="boton amarillo" value="+" onclick="insertar('+')">+</button>
                         <button class="boton largo" value="0" onclick="insertar('0')">0</button>
                         <button class="boton" value="." onclick="insertar('.')">.</button>
-                        <button class="boton amarillo" value="=" onclick="insertar('=')">=</button>
+                        <button class="boton amarillo" value="=" onclick="igual()">=</button>
                     </div>
                 </div>
             </article>

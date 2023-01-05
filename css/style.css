@@ -22,7 +22,7 @@ html{
     border: 1px solid black;
 }
 
-.calculadora-pantalla{
+#calculadora-pantalla{
     padding: 25px 15px;
     width: 98%;
     margin: 5px;
