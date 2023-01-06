@@ -19,5 +19,7 @@ Muestra en el display los caracteres que uno va tocando en la botonera, puede bo
 ## Fin
 
 Espero que les guste cualquier consulta me pueden escribir.
+
 <a href='https://www.linkedin.com/in/agustin-aguilar/'> Agustin Aguilar </a>
+
 05/01/2022
